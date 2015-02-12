@@ -29,10 +29,11 @@ Dificuldades :
 - Disponível (SLA)
 - Transparência
 
-Solução : 
+###Solução : 
 
-* MiddleWare
-![alt tag](http://s1.postimg.org/tsv0fq78v/Imagens.png)
+- MiddleWare
+
+ ![alt tag](http://s29.postimg.org/nzmgbws53/crop.jpg)
 
 ## Objetivos
 - Acesso a recursos. Ex: Impressora, computadores, etc.
