@@ -1,6 +1,6 @@
 # Engenharia da Computação 4ECA
 
-![Why so dumb](http://s12.postimg.org/b4hmt4vd9/average_high_school_programmer_meme_generator_in.jpg)
+![Why so dumb](http://www.quickmeme.com/img/8d/8d1947543472bfc6f16753ccd2062da73a8db478dcd9e09a609756e122d856fb.jpg)
 
 # Aulas
 ### Sistemas Distibuidos
