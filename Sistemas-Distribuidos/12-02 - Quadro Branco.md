@@ -123,3 +123,35 @@ public class ThreadFactoryExemplo1 {
 
 #### CPU Usage
 ![alt tag](http://s30.postimg.org/6lq5qmoap/Untitled.png)
+
+##Escalabilidade
+
+-   Tamanho ( + usuarios + recursos )
+-   Geográfico (amplas distâncias entre os usuários e recursos)
+-   Administração ( diferente hierárquias administrativa )
+
+##Problemas
+-   Serviço centralizados (Único servidor)
+-   Dados centralizados ( gargalo de acesso - exemplo. DNS )
+-   Algoritimos centralizados ( roteamento )
+    1. Nenhuma máquina tem informação completa do estilo do sitema.
+    2. Ele toma decisões baseada em informações locais.
+    3. Tolerância a falhas de máquina
+    4. Não depende de *- PROX_AL -*
+- Soluções para capacidade limitada de servidores e rede:
+    1. Ocular latência ( processos assíncronos ) 
+    2. Distribuição ( distribuição hierárquica ( árvore ) )
+    3. Replicação ( Load balance ( Serviço do tipo staless ) e desempenho )
+        - Desvantagem : Falta de consistência (Implica em Sincronização)
+
+## Ciladas
+### ( Premissas falsas do desenvolver de um sistema )
+
+1. Rede confiável
+2. Rede Segura
+3. Rede Homongênea
+4. Topologia imutável
+5. Latência zero
+6. Largura de banda infinita
+7. Custo de transporte zero
+8. Administração centralizada
