@@ -145,7 +145,7 @@ public class ThreadFactoryExemplo1 {
         - Desvantagem : Falta de consistência (Implica em Sincronização)
 
 ## Ciladas
-### ( Premissas falsas do desenvolver de um sistema )
+### Premissas falsas do desenvolver de um sistema
 
 1. Rede confiável
 2. Rede Segura
