@@ -6,3 +6,9 @@
 ### Sistemas Distibuidos
 - 12/02 ( [link](https://github.com/pedrotk/FIAP-4ECA/blob/master/Sistemas-Distribuidos/12-02%20-%20Quadro%20Branco.md) )
 - 19/02 ( [link](https://github.com/pedrotk/FIAP-4ECA/blob/master/Sistemas-Distribuidos/19-02%20-%20Quadro%20Branco.md) )
+
+#Manual da Vida
+
+### Editor do documento no GitHub
+
+- Simplesmene [clique aqui](https://stackedit.io/editor) (Baidu enterprise edition + Hao123 embedded freeware)
