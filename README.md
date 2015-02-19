@@ -11,4 +11,4 @@
 
 ### Editor do documento no GitHub
 
-- Simplesmene [clique aqui](https://stackedit.io/editor)
+- Simplesmente [clique aqui](https://stackedit.io/editor)
