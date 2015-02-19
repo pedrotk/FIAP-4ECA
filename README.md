@@ -11,4 +11,4 @@
 
 ### Editor do documento no GitHub
 
-- Simplesmene [clique aqui](https://stackedit.io/editor) (Baidu enterprise edition + Hao123 embedded freeware)
+- Simplesmene [clique aqui](https://stackedit.io/editor)
