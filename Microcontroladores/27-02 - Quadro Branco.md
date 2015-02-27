@@ -43,3 +43,41 @@
 ## Memória RAM
 
 ![](http://s14.postimg.org/lv2gjjigx/memoria_ram.png)
+
+### Status
+
+![](http://s27.postimg.org/mlaz0dinn/STATUS.png)
+
+| IRP	| Banco
+| :------- | ----:
+| 0 | 0 e 1
+| 1 | 2 e 3
+
+| RP1 | RP0 | Banco |
+| :------- | :---- | :---: |
+| 0 | 0|  0	|
+| 0	| 1	|  1	|
+| 1	| 0	|  2	|
+| 1	| 1	|	3	|
+
+#Intruções (Continuação)
+## decf f,d
+
+- Código : 00 0011 dfff ffff
+- Ciclos : 1
+- Flag : Z
+
+### Exemplo 1
+
+```
+decf 0x20,1
+```
+![](http://s12.postimg.org/tb3ad2oi5/image.png)
+
+
+### Exemplo 2
+
+```
+decf 0x20,0
+```
+![](http://s1.postimg.org/rc2k6hnjj/fz01.png)
