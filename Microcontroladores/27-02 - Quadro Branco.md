@@ -81,3 +81,29 @@ decf 0x20,1
 decf 0x20,0
 ```
 ![](http://s1.postimg.org/rc2k6hnjj/fz01.png)
+
+## decfsz f,d
+
+- decfsz f,d
+	- (f - 1 -> d)
+	- Código : 00 1011 dfff ffff
+	- Ciclos : 1 ou 2
+
+### Exemplo
+
+
+- 0000h 
+	- movlw .3
+	- movwf 0x20
+- 0002h
+	- decfsz 0x20,1
+	- goto 0 x 002
+- 0004h
+	- goto 0x004
+
+## goto k
+
+- goto k
+	- ( k -> pc )
+	- Código : 101 kkk kkkk kkkk
+	- Ciclos : 2
