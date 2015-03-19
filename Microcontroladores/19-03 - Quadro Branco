@@ -1,0 +1,65 @@
+#Quadro Branco
+
+##Solução dos LED's
+
+```assembly
+BSF     STATUS, RP0
+BSF     TRISA,RA4
+CLRF    TRISB
+BCF     Status, RP0
+MOVLW   .7
+MOVWF   CMCON
+
+BOTAO
+BTFSC   PORTA,RA4
+GOTO    BOTAO
+CALL    DEBOUNCE
+BTFSC   PORTA,3
+BSF     STATUS,0; Seta Flag C
+RLF     PORTB,F
+BTFSC   PORTB,7;Verifica se todos os leds acenderam
+GOTO    DIREITA
+
+PRESO
+BTFSS   PORTA,RA4
+GOTO    PRESO
+GOTO    BOTAO
+
+DIREITA
+BTFSC   PORTA,RA4
+GOTO    DIREITA
+CALL    DEBOUNCE
+BTFSC   PORTA,RA4
+GOTO    DIREITA
+BCF     STATUS,0
+RRF     PORTB,F
+BTFSS   PORTB,0 ; Se LED0 Ainda está aceso, não precisa continuar apagando.
+
+PRESO1
+BTFSS   PORTA,RA4
+GOTO    PRESO1
+GOTO    DIREITA
+
+DEBOUNCE
+SAY     B
+SAY     B
+SAY     BAKA
+RETURN
+END
+
+DELAY
+	MOVLW .100
+	MOVWF 0X21
+        LOOP2:
+	        MOVLW .250
+	        MOVWF 0X20F
+        LOOP1:
+	        NOP
+	        DECFSZ 0X20F
+	        GOTO LOOP1
+	        DECFSZ 0X21,F
+	        GOTO LOOP2
+    RETURN;
+    
+HCF;
+```
