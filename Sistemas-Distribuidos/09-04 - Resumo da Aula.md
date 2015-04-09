@@ -32,3 +32,6 @@ public class Command implements Serializable {
 }
 
 ```
+
+[Interface description language]:http://en.wikipedia.org/wiki/Interface_description_language
+[Akka]:http://en.wikipedia.org/wiki/Akka_%28toolkit%29
