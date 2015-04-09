@@ -1,8 +1,8 @@
 #Ponteiro de dados
 
 ##Exemplo
-
-- Colocar o valor 33h em 20 endereços de memória começando do 20h
+![](http://s24.postimg.org/6erltf55x/09_04_quadro_1.png)
+- Colocar o valor 33h em 20 endereços de memória começando do 20h.
 
 ###Método tradicional
 
@@ -21,11 +21,13 @@ MOVLW   0x20
 MOVWF   FSR
 MOVLW   0X33
 MOVWF   INDF
-INCF    FSR,F   ;LOOP
-DECFSZ  CONTA,F
-GOTO    LOOP
-GOTO    FIM     ;FIM
+LOOP    INCF    FSR,F
+        DECFSZ  CONTA,F
+        GOTO    LOOP
+FIM     GOTO    FIM
 ```
+
+![](http://s24.postimg.org/ap69p0a91/09_04_quadro_2.png)
 
 ## Exercício
 
