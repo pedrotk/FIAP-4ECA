@@ -54,5 +54,5 @@ DELAY
 	        GOTO LOOP2
     RETURN;
     
-HCF;
+END;
 ```
