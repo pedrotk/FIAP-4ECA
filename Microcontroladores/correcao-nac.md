@@ -1,4 +1,6 @@
-#1
+#1 
+Um Determinado Sensor após habilitado somente completa o envio da informação solicitada após 250ms de seu acionamento. Implemente uma sub-rotina que efetue o acionameto do sensor, aguarde a informação ser recebida e sinalize o recebimento da informação acionando o LED ligado ao microcontraldor de acordo com o circuito abaixo. Considere o clock eexterno igual a 4MHz.
+Comente as linhas mais importantes de seu programa.
 ```assembly
 #INCLUDE <P16F628A.INC>
 
