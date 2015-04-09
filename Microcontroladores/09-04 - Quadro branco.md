@@ -32,7 +32,9 @@ FIM     GOTO    FIM
 ## Exercício
 
 1.  Colocar o valor F0h em 10 endereços de memória a partir do endereço 20h e colocar o valor 0Fh nos 10 endereços subsequentes. Ao final o led conectado a RB2 deverá piscar a cada 100ms. (Deve-se utilizar o par de registradores (FSR e INDF).
-###Resposta
+
+
+###Resposta aluno
 ```assembly
 #include<p16f628a.inc>
 
