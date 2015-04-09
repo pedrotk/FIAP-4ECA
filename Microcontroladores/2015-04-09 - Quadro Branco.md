@@ -56,8 +56,13 @@ INICIO
             DECFSZ CONTA,F
         GOTO LOOP
         CALL DELAY
-        CLEARF PORTB,RB2
-        
+    LED
+        BCF PORTB,RB2
+        NOP
+        NOP
+        BSF PORTB,RB2
+    GOTO LED
+
         DELAY   MOVLW .100
         MOVWF 0X21
             LOOP2:
