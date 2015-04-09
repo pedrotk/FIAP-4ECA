@@ -37,3 +37,18 @@ DELAY
 	
 END
 ```
+
+#2
+Qual o valor dos registradores LATA, LATB e W após a execução do trecho de programa abaixo
+
+| Instrução | LATA  | LATB  | W |
+| ------------- |:-------------:| :-----:| ---:|
+|MOVLW 0XFF|0|não sei|não sei|
+|MOVWF TRISB|0|não sei|não sei|
+|MOVLW .20|0|não sei|não sei|
+|MOVWF LATB|0|não sei|não sei|
+|XORWF LATA,1|20|não sei|não sei|
+|NOP|20|não sei|não sei|
+|DECFSZ LATB,0|20|não sei|não sei|
+|INCF LATA,1|21|não sei|não sei|
+|FIM GOTO FIM|21|não sei|não sei|
