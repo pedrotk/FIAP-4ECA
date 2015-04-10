@@ -1,10 +1,10 @@
 #E²PROM
-Implementar um programa que grave O número 7 no END  01h da memória E²PROM
+Implementar um programa que grave o número 7 no END  01h da memória E²PROM
 ```assembly
 #include<p16f6182a.inc>
-    ORG OXOO
+    ORG 0X00
     GOTO INICIO
-    ORG OXO4
+    ORG 0X04
     RETFIE
 INICIO BSF STATUS,RP0
        MOVLW 0X01
