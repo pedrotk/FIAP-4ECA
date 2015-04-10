@@ -58,3 +58,6 @@ LE_EEPROM   BSF         STATUS,RP0
             RETURN
             END
 ```
+
+#Exercício
+Acrescentar ao programa "contador em anel módulo 10" uma rotina que grave na E²PROM o valor da contagem e uma rotina que recupere esse valor caso o pic seja resetado
