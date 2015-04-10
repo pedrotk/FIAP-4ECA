@@ -26,3 +26,34 @@ TESTA BTFSC EECON1,WR; WR É RESETADO POR HARDWARE }TESTA SERÁ RODADO POR 10ms
       BSF INTCON,GIE
       BCF STATUS,RPW
 ```
+
+- Ler os endereços 0 e 1 da E²PROM os valores lidos deveram ser colocados nas variáveis **NUM0** e **NUM1** da memória flash.
+
+```assembly
+#include    <P16F628A.INC>  
+CBLOCK      0X20
+NUM0
+NUM1
+ENDC
+ORG         0x00
+GOTO        INICIO
+ORG         0x04
+RETFIE
+INICIO      BSF         STATUS,RP0
+            MOVLW       .0
+            MOVWF       EEADR
+            CALL        LE_EEPROM
+            MOVWF       NUM0
+            BSF         STATUS,RP0
+            MOVLW       .1
+            MOVWF       EEADR
+            CALL        LE_EEPROM
+            MOVWF       NUM1
+FIM         GOTO        FIM
+LE_EEPROM   BSF         STATUS,RP0
+            BSF         EECON1,RD ; Prepara Leitura
+            MOVF        EEDATA,W
+            BCF         STATUS,RP0
+            RETURN
+            END
+```
