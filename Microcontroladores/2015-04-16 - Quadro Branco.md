@@ -15,7 +15,7 @@
 | 1   | 1   | 0   | 1:128 | 1:64  |
 | 1   | 1   | 1   | 1:256 | 1:128 |
 
-![ímage](http://s17.postimg.org/81ddj9xb3/Untitled_Diagram_2.png)
+![ímage](http://s13.postimg.org/pjlrt1qon/Untitled_Diagram_3.png)
 ---
 ![image](http://s17.postimg.org/mylukaajj/Untitled_Diagram_1.png)
 
