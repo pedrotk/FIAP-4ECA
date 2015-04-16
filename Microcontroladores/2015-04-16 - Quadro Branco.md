@@ -14,3 +14,13 @@
 | 1   | 0   | 1   | 1:64  | 1:32  |
 | 1   | 1   | 0   | 1:128 | 1:64  |
 | 1   | 1   | 1   | 1:256 | 1:128 |
+
+![ímage](http://s17.postimg.org/81ddj9xb3/Untitled_Diagram_2.png)
+
+![image](http://s17.postimg.org/mylukaajj/Untitled_Diagram_1.png)
+
+> Qual o tempo **Máximo** que o TMR0 pode contar? (4MHz)
+
+```
+256 * 256 * 1µs = 65.536 µs
+```
