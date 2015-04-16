@@ -61,3 +61,68 @@ LE_EEPROM   BSF         STATUS,RP0
 
 #Exercício
 - Acrescentar ao programa "*contador em anel módulo 10*" uma rotina que grave na E²PROM o valor da contagem e uma rotina que recupere esse valor caso o **pic** seja resetado
+##Resposta Aluno
+
+```assembly
+#include<PIC6F28A.INC>
+
+CBLOCK 0X20
+NUM
+CONTA
+ENDC
+
+    ORG 0X00
+    GOTO 0X00
+    GOTO INICIO
+    ORG 0X04
+    RETFIE
+    
+    BSF STATUS,RP0
+    MOVLW B'00010000'
+    MOVWF TRISA
+    CLRF TRISB
+    MOVLW .7
+    MOVWF CMCON
+    
+INCIO MOVLW .0
+      MOVWF EEADR
+      CALL LER_EEPROM
+      MOVWF CONTA
+      MOVWFPORTB
+      BCF STATUS,RP0
+
+BOTAO BTFSC PORTA,RA4
+      CALL DELAY
+      BTFSC PORTA,RA4
+      GOTO BOTAO
+      INCF PORTB,F
+      MOVLW PORTB
+      CALL INSERIR_EEPROM
+      
+PRESO BTFSS PORTA,RA4
+      GOTO  PRESO
+      DECFSZ CONTA,F
+      GOTO BOTAO
+      MOVLW .9
+      MOVWF CONTA
+      CLRF TRISB
+      GOTO BOTAO
+      
+LER_EEPROM BSF STATUS,RP0
+           BSF EECON,RD
+           MOVF EEDATA,0
+           BCF STATUS,RP0
+           RETURN
+           
+INSERIR_EEPROM BCF INTCON_GIE
+               BSF EECON1,WREN
+               MOVLW 0X55
+               MOVWF EECON2
+               MOVLW 0XAA
+               MOVWF EECOM2
+               BSF EECON1,WR
+TESTA BTFSC EECON1,WR
+      GOTO TESTA
+      BSF INTCON,GIE
+      BCF STATUS,RP0
+```
