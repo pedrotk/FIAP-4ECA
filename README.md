@@ -5,7 +5,7 @@
 ---
 #### Editor de Documento - GitHub
 ---
-- [Dillinger.io](http://dillinger.io/)
-- [Draw.io](https://www.draw.io/)
+- [Dillinger.io - Editor de Texto](http://dillinger.io/)
+- [Draw.io - Editor de Diagrama ](https://www.draw.io/)
 
 ---
