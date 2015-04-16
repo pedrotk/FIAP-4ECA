@@ -21,6 +21,5 @@
 
 > Qual o tempo **Máximo** que o TMR0 pode contar? (4MHz)
 
-```
-256 * 256 * 1µs = 65.536 µs
-```
+
+![formula](http://latex.codecogs.com/gif.latex?256%20*%20256%20*%201\mu%20s%20%3D%2065.536%20\mu%20s)
