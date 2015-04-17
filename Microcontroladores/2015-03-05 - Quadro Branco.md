@@ -24,9 +24,8 @@
 - Modo digital ( comparadores digital )
 
 ![](http://s11.postimg.org/y9n7s75cz/Comparadors.png)
+
 ### Modo Digital
 - Comparadores Desligados
-- 
 
-
-#Aguardo de atualização
+![](http://s11.postimg.org/qo4fn16ab/Untitled_Diagram_5.png)
