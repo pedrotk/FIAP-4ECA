@@ -13,11 +13,11 @@
 [4]:ww1.microchip.com/downloads/en/DeviceDoc/MPLAB_IDE_8_50.zip
 
 ##Exercicio 1
-ELABORAR UM FIRMWARE COM AS SEGUINTES CARACTERÍSTICAS:
-- BOTÃO RB3 PRESSIONADO = LED D0 ACESO
-- BOTÃO RB3 LIBERADO = LED D0 APAGADO
-- BOTÃO RB4 PRESSIONADO = LED D1 APAGADO
-- BOTÃO RB4 LIBERADO = LED D1 ACESO
+Elaborar um firmware com as seguintes características:
+- Botão RB3 pressionado = LED D0 Aceso
+- Botão RB3 pressionado = LED D0 Apagado
+- Botão RB4 Pressionado = LED D1 Apagado
+- Botão RB4 Liberado = LED D1 Aceso
 
 ```assembly
 #include <P18F452.inc>
