@@ -20,7 +20,7 @@
 - StateLess
 - Mapeamento Objeto Relacional
 
-![img](http://s13.postimg.org/i9t7wdief/Diagrama2.png)
+![img](http://s4.postimg.org/l395ajsa5/Diagrama4.png)
 
 [PKI]:http://en.wikipedia.org/wiki/Public_key_infrastructure
 [CAP]:http://en.wikipedia.org/wiki/CAP_theorem
