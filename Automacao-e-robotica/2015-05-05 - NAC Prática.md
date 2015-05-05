@@ -13,4 +13,4 @@ O endereço da saída é `O:2/0` (uma lãmpada).
 
 ###Resposta
 
-![img](http://s13.postimg.org/o93f4ikdj/Ladder_Rungs.jpg)
+![Resposta](http://s13.postimg.org/o93f4ikdj/Ladder_Rungs.jpg)
