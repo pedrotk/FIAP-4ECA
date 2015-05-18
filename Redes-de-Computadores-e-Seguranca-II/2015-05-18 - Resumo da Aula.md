@@ -2,4 +2,4 @@
 
 ##Quadro Branco
 
-![img](http://s2.postimg.org/ctob88lah/Untitled_Diagram.png)
+![img](http://s28.postimg.org/wz7nzbn9p/Untitled_Diagram_2.png)
