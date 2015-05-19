@@ -20,6 +20,7 @@ Router(config-router)#exit
 Router(config)#exit
 Router#
 Router#copy running-config startup-config 
+Router#
 
 #Router ES
 Router>
@@ -37,6 +38,7 @@ Router(config-router)#exit
 Router(config)#exit
 Router#
 Router#copy running-config startup-config 
+Router#
 
 #Router RJ
 Router>
@@ -54,6 +56,7 @@ Router(config-router)#exit
 Router(config)#exit
 Router#
 Router#copy running-config startup-config 
+Router#
 
 #Router MG
 Router>
@@ -70,7 +73,7 @@ Router(config-router)#exit
 Router(config)#exit
 Router#
 Router#copy running-config startup-config 
-
+Router#
 
 #Router SP / Router RJ
 Router>
