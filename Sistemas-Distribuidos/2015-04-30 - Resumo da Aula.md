@@ -34,3 +34,6 @@
 [JPA]:http://en.wikipedia.org/wiki/Java_Persistence_API
 [Hibernate]:http://hibernate.org/
 [DAO]:http://en.wikipedia.org/wiki/Data_access_object
+
+
+*[CAP]: Brewer's theorem
