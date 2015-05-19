@@ -3,7 +3,7 @@
 - **complex_ospf_ceneario.pkt**
 
 ```bash
-//Router SP
+#Router SP
 Router>
 Router>enable
 Router#configure terminal
