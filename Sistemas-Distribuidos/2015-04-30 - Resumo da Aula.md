@@ -22,18 +22,18 @@
 
 ![img](http://s4.postimg.org/l395ajsa5/Diagrama4.png)
 
-[PKI]:http://en.wikipedia.org/wiki/Public_key_infrastructure
+[PKI]:http://en.wikipedia.org/wiki/Public_key_infrastructure "Public Key Infrastructure"
 [CAP]:http://en.wikipedia.org/wiki/CAP_theorem "Brewer's theorem"
-[HSM]:http://en.wikipedia.org/wiki/Hardware_security_module
-[WAR]:http://en.wikipedia.org/wiki/WAR_%28file_format%29
-[JAR]:http://en.wikipedia.org/wiki/JAR_(file_format)
-[EJB]:http://en.wikipedia.org/wiki/Enterprise_JavaBeans
-[JNDI]:http://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface
-[EAR]:http://en.wikipedia.org/wiki/EAR_%28file_format%29
-[ORM]:http://en.wikipedia.org/wiki/Object-relational_mapping
-[JPA]:http://en.wikipedia.org/wiki/Java_Persistence_API
-[Hibernate]:http://hibernate.org/
-[DAO]:http://en.wikipedia.org/wiki/Data_access_object
+[HSM]:http://en.wikipedia.org/wiki/Hardware_security_module "Hardware Security Module"
+[WAR]:http://en.wikipedia.org/wiki/WAR_%28file_format%29 "Web application ARchive"
+[JAR]:http://en.wikipedia.org/wiki/JAR_(file_format) "Java ARchive"
+[EJB]:http://en.wikipedia.org/wiki/Enterprise_JavaBeans ""
+[JNDI]:http://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface ""
+[EAR]:http://en.wikipedia.org/wiki/EAR_%28file_format%29 "Enterprise Application Resource"
+[ORM]:http://en.wikipedia.org/wiki/Object-relational_mapping ""
+[JPA]:http://en.wikipedia.org/wiki/Java_Persistence_API ""
+[Hibernate]:http://hibernate.org/ ""
+[DAO]:http://en.wikipedia.org/wiki/Data_access_object ""
 
 
 
