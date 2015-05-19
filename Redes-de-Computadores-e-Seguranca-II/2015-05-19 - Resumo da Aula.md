@@ -62,8 +62,8 @@ Router(config)#
 Router(config)#router ospf 1
 Router(config-router)#
 Router(config-router)#network 50.0.0.0 0.0.255.255 area 1
-Router(config-router)#network 148.10.0.0 0.0.255.255 area 1
 Router(config-router)#network 5.0.0.0 0.255.255.255 area 1
+Router(config-router)#network 148.10.0.0 0.0.255.255 area 1
 Router(config-router)#exit
 Router(config)#exit
 Router#
