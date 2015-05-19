@@ -70,7 +70,7 @@ Router#
 Router#copy running-config startup-config 
 
 
-#
+#Router SP / Router RJ
 Router>
 Router>enable
 Router#
@@ -81,8 +81,9 @@ Router(config-if)#
 Router(config-if)#bandwidth 512
 Router(config-if)#
 Router(config-if)#exit
-Router(config)#
 Router(config)#exit
 Router#
+
+
 ```
 
