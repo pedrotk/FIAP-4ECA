@@ -2,8 +2,7 @@
 
 - **complex_ospf_ceneario.pkt**
 
-```
-
+```terminal
 //Router SP
 Router>
 Router>enable
@@ -20,3 +19,4 @@ Router RJ
 Router MG
 
 ```
+
