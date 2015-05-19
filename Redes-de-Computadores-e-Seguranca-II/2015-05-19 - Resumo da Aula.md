@@ -1,5 +1,7 @@
 #Modelo
 
+![alt][image]
+
 - **complex_ospf_ceneario.pkt**
 
 ```bash
@@ -87,3 +89,4 @@ Router#
 
 ```
 
+[image]: http://s28.postimg.org/3jo63sw7x/Untitled.png "Imagem Padrão"
