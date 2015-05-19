@@ -2,7 +2,7 @@
 
 - **complex_ospf_ceneario.pkt**
 
-```terminal
+```bash
 //Router SP
 Router>
 Router>enable
