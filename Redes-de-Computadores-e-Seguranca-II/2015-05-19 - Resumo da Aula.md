@@ -69,5 +69,20 @@ Router(config)#exit
 Router#
 Router#copy running-config startup-config 
 
+
+#
+Router>
+Router>enable
+Router#
+Router#configure terminal
+Router(config)#
+Router(config)#interface serial 0/3/0
+Router(config-if)#
+Router(config-if)#bandwidth 512
+Router(config-if)#
+Router(config-if)#exit
+Router(config)#
+Router(config)#exit
+Router#
 ```
 
