@@ -23,7 +23,7 @@
 ![img](http://s4.postimg.org/l395ajsa5/Diagrama4.png)
 
 [PKI]:http://en.wikipedia.org/wiki/Public_key_infrastructure
-[CAP]:http://en.wikipedia.org/wiki/CAP_theorem
+[CAP]:http://en.wikipedia.org/wiki/CAP_theorem "Brewer's theorem"
 [HSM]:http://en.wikipedia.org/wiki/Hardware_security_module
 [WAR]:http://en.wikipedia.org/wiki/WAR_%28file_format%29
 [JAR]:http://en.wikipedia.org/wiki/JAR_(file_format)
@@ -36,4 +36,4 @@
 [DAO]:http://en.wikipedia.org/wiki/Data_access_object
 
 
-*[CAP]: Brewer's theorem
+
