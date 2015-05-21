@@ -137,7 +137,7 @@ public class ThreadFactoryExemplo1 {
     1. Nenhuma máquina tem informação completa do estilo do sitema.
     2. Ele toma decisões baseada em informações locais.
     3. Tolerância a falhas de máquina
-    4. Não depende de *- PROX_AL -*
+    4. Não depende de relógio global.
 - Soluções para capacidade limitada de servidores e rede:
     1. Ocular latência ( processos assíncronos ) 
     2. Distribuição ( distribuição hierárquica ( árvore ) )
