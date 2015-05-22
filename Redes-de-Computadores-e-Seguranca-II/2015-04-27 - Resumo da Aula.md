@@ -1,7 +1,7 @@
 #Resumo da Aula
 
 ##Links
--   [IPv6.br](IPv6.br)
+-   [IPv6.br](http://ipv6.br)
 -   [Internet Map](http://internet-map.net/)
 
 ##Caracteristicas da camada de Rede
