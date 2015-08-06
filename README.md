@@ -6,7 +6,7 @@
 #### Editor de Arquivo - GitHub
 ---
 - [Dillinger.io - Editor de Texto - Markdown](http://dillinger.io/)
-- [StackEdit - Editor de Texto - Markdown](https://stackedit.io/)
+- [StackEdit.io - Editor de Texto - Markdown](https://stackedit.io/)
 - [Draw.io - Editor de Diagrama](https://www.draw.io/)
 - [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 - [Syntax highlighting](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
