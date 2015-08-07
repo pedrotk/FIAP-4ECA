@@ -5,15 +5,17 @@ Ver no Circuit Maker
 
 ```Arduino
 int trigger = 2;
-int sensor1 = 4;
-int sensor2 = 7;
-int sensor3 = 8;
+int sensorLateral = 4;
+int sensorFrente = 7;
+int sensorVertical = 8;
+int motorEsq = 10;
+int motorDir = 11;
 
 void ligarSensores(){
   digitalWrite(trigger, LOW);
   delay(2);
   digitalWrite(trigger, HIGH);
-  delayMicroseconds(12);
+  delay(105);
 }
 
 int medirDistancia(int sensor){
@@ -23,11 +25,23 @@ int medirDistancia(int sensor){
   return tempo / 29 / 2;
 }
 
+void virarEsq(){
+  analogWrite(motorEsq, 255);
+  analogWrite(motorDir, 127);
+}
+
+void virarDir(){
+  analogWrite(motorEsq, 127);
+  analogWrite(motorDir, 255);
+}
+
 void setup() {
   pinMode(trigger, OUTPUT);
-  pinMode(sensor1, INPUT);
-  pinMode(sensor2, INPUT);
-  pinMode(sensor3, INPUT);
+  pinMode(sensorLateral, INPUT);
+  pinMode(sensorFrente, INPUT);
+  pinMode(sensorVertical, INPUT);
+  pinMode(motorEsq, OUTPUT);
+  pinMode(motorDir, OUTPUT);
 }
 
 void loop() {
